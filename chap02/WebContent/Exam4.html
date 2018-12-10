@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="join.php" method="post">
+		<fieldset>
+			<p>
+				성명 <span>방미희</span></p> <hr style=background-color:white />
+			<p>
+				아이디 <input type="text" size="20" maxlength="8" /> <input
+					type="button" value="중복아이디 검사">
+			</p>
+			<p>
+				사진 <input type="file" />
+			</p>
+			<p>
+				패스워드 <input type="password" size="20" maxlength="8" />
+			<p>
+				패스워드확인 <input type="password" size="20" maxlength="8" />
+			</p>
+			<p>
+				연락처 <select><option value="010">010</option>
+					<option value="010">019</option>
+					<option value="010">016</option>
+					<option value="010">011</option>
+				</select> <span> -<input type="text" size="4" maxlength="4">
+				</span> <span> -<input type="text" size="4" maxlength="4"></span> <input
+					type="button" value="휴대폰 인증"> 예 <input type="checkbox"
+					value="아니오" name="chk2">아니오
+			<p>
+				이메일<input type="text" size="40" maxlength="30"> 이메일 수신 동의 <input
+					type="checkbox" value="예" name="예">예 <input type="checkbox"
+					value="아니오" name="아니오">아니오
+			<p style="font-size: 8px;">회원가입 완료시 인증메일이 발송되오니 정확한 메일 주소를 기재해
+				주세요!</p>
+			<p>
+				지역선택 <select><option value="-지역 선택-">- 지역선택 -
+					<option value="서울">서울
+					<option value="강원">강원
+					<option value="경기">경기
+					<option value="부산">부산</select>
+		</fieldset>
+	</form>
+</body>
+</html>

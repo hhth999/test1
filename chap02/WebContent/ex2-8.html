@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+body {
+	font: 12px "굴림", Gulim;
+	margin: 20px;
+}
+
+#container {
+	width: 600px;
+	padding: 10px;
+	background: #fdd;
+	border: 5px solid #caa;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px;
+}
+
+p {
+	text-align: justify;
+}
+
+.green {
+	float: left;
+	width: 250px;
+	padding: 15px;
+	background: #dda;
+}
+
+.coffee {
+	float: right;
+	width: 250px;
+	padding: 15px;
+	background: #ba7;
+}
+
+#container:after {
+	content: '' '';
+	display: block;
+	clear: both;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>녹차와 커피</h1>
+		<div class="green">
+			<p>녹차는 ㅁㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㄴㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㄴㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇ</p>
+		</div>
+		<div class="coffee">
+			커피는 독한향 ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㄴㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㄴㅁㅇㅁㄴㅇㄴㅁㅇㅁㄴㅇ
+			</p>
+		</div>
+	</div>
+</body>
+</html>
